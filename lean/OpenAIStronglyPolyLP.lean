@@ -37,10 +37,10 @@ theorem sec3_orthogonality_excludes_both_sides (vi wi rest : Int)
   omega
 
 /-- 5. Section 3.1: Reciprocal scaling preserves paired quadratic form `Q(y) = ∑ y_{i+} y_{i-}`.
-    Associativity/commutativity identity `(y_p·d)·(y_m·r) = (y_p·y_m)·(d·r)` in `ℤ`. -/
-theorem sec31_reciprocal_scaling_preserves_product (yp ym d r : Int) :
-    (yp * d) * (ym * r) = (yp * ym) * (d * r) := by
-  rw [Int.mul_assoc, Int.mul_left_comm d ym r, ← Int.mul_assoc]
+    If `d · r = 1`, proves `(y_p · d) · (y_m · r) = y_p · y_m` in `ℤ`, certifying `Q(yD) = Q(y)`. -/
+theorem sec31_reciprocal_scaling_preserves_product (yp ym d r : Int) (hr : d * r = 1) :
+    (yp * d) * (ym * r) = yp * ym := by
+  rw [Int.mul_assoc, Int.mul_left_comm d ym r, ← Int.mul_assoc, hr, Int.mul_one]
 
 /-- 6. Section 3.2 (Lemma 3.1): Midpoint quadratic lower bound for rational `ε = e_num / e_den`.
     For any `0 ≤ e_num`, `0 < e_den` with `20·e_num ≤ e_den` (`0 ≤ ε ≤ 1/20`), proves

@@ -17,6 +17,6 @@
   "license": "CC-BY-4.0",
   "code_license": "MIT",
   "repo_url": "https://github.com/lluiseriksson/openai-strongly-polynomial-lp-certificates",
-  "release_tag": "v1.0.0",
+  "release_tag": "v2.0.0",
   "pdf_relpath": "paper/main.pdf"
 }
