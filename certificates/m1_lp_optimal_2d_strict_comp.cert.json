@@ -1,0 +1,115 @@
+{
+  "protocol": "SPLP-SMALE9-CERT-1.0",
+  "certificate_id": "m1_lp_optimal_2d_strict_comp",
+  "mode": "lp_trichotomy_certificate_cert",
+  "description": "Thm. 1 optimal branch (4x2) with exact strict complementarity b-Ax+y > 0 (opt=10)",
+  "payload": {
+    "branch": "optimal",
+    "m_rows": 4,
+    "n_cols": 2,
+    "A": [
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "b": [
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "c": [
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "witness": {
+      "x": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "y": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "claimed_opt_value": [
+        10,
+        1
+      ]
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "protocol": "SPLP-SMALE9-CERT-1.0",
+  "certificate_id": "m1_lp_infeasible_farkas_minsupp",
+  "mode": "lp_trichotomy_certificate_cert",
+  "description": "Thm. 1 infeasible branch (4x2) minimal-support Farkas cert (supp <= 1+rank=3)",
+  "payload": {
+    "branch": "infeasible",
+    "m_rows": 4,
+    "n_cols": 2,
+    "A": [
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "b": [
+      [
+        1,
+        1
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "c": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "witness": {
+      "y": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "claimed_rank_A": 2,
+      "claimed_farkas_rhs": [
+        -3,
+        1
+      ]
+    }
+  }
+}

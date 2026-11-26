@@ -1,0 +1,93 @@
+{
+  "protocol": "SPLP-SMALE9-CERT-1.0",
+  "certificate_id": "m1_lp_unbounded_recession_ray",
+  "mode": "lp_trichotomy_certificate_cert",
+  "description": "Thm. 1 unbounded branch (3x2) with feasible x & improving recession ray (c^T r=8)",
+  "payload": {
+    "branch": "unbounded",
+    "m_rows": 3,
+    "n_cols": 2,
+    "A": [
+      [
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    ],
+    "b": [
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "c": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "witness": {
+      "x": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "r": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "claimed_ray_gain": [
+        8,
+        1
+      ]
+    }
+  }
+}

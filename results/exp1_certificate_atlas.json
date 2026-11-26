@@ -1,0 +1,225 @@
+{
+  "protocol": "SPLP-SMALE9-CERT-1.0",
+  "count": 16,
+  "certificates": [
+    {
+      "certificate_id": "m1_lp_optimal_2d_strict_comp",
+      "mode": "lp_trichotomy_certificate_cert",
+      "mean_ms": 0.077,
+      "summary": {
+        "mode": "lp_trichotomy_certificate_cert",
+        "branch": "optimal",
+        "dims": "4x2",
+        "opt_value": "10/1",
+        "strict_comp_rows": 4,
+        "certificate_id": "m1_lp_optimal_2d_strict_comp",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m1_lp_optimal_3d_strict_comp",
+      "mode": "lp_trichotomy_certificate_cert",
+      "mean_ms": 0.115,
+      "summary": {
+        "mode": "lp_trichotomy_certificate_cert",
+        "branch": "optimal",
+        "dims": "6x3",
+        "opt_value": "30/1",
+        "strict_comp_rows": 6,
+        "certificate_id": "m1_lp_optimal_3d_strict_comp",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m1_lp_unbounded_recession_ray",
+      "mode": "lp_trichotomy_certificate_cert",
+      "mean_ms": 0.049,
+      "summary": {
+        "mode": "lp_trichotomy_certificate_cert",
+        "branch": "unbounded",
+        "dims": "3x2",
+        "ray_gain": "8/1",
+        "certificate_id": "m1_lp_unbounded_recession_ray",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m1_lp_infeasible_farkas_minsupp",
+      "mode": "lp_trichotomy_certificate_cert",
+      "mean_ms": 0.062,
+      "summary": {
+        "mode": "lp_trichotomy_certificate_cert",
+        "branch": "infeasible",
+        "dims": "4x2",
+        "rank_A": 2,
+        "farkas_support": 3,
+        "certificate_id": "m1_lp_infeasible_farkas_minsupp",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_recip_circuit_u10_newton2",
+      "mode": "reciprocal_scaling_and_newton_det_cert",
+      "mean_ms": 0.142,
+      "summary": {
+        "mode": "reciprocal_scaling_and_newton_det_cert",
+        "N_dim": 4,
+        "dim_C": 2,
+        "newton_k": 2,
+        "k_fact_det": -198,
+        "certificate_id": "m2_recip_circuit_u10_newton2",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_recip_circuit_u1000_newton3",
+      "mode": "reciprocal_scaling_and_newton_det_cert",
+      "mean_ms": 0.135,
+      "summary": {
+        "mode": "reciprocal_scaling_and_newton_det_cert",
+        "N_dim": 4,
+        "dim_C": 2,
+        "newton_k": 3,
+        "k_fact_det": -324,
+        "certificate_id": "m2_recip_circuit_u1000_newton3",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_recip_n5_ortho_newton4",
+      "mode": "reciprocal_scaling_and_newton_det_cert",
+      "mean_ms": 0.224,
+      "summary": {
+        "mode": "reciprocal_scaling_and_newton_det_cert",
+        "N_dim": 5,
+        "dim_C": 2,
+        "newton_k": 4,
+        "k_fact_det": 3888,
+        "certificate_id": "m2_recip_n5_ortho_newton4",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_recip_n6_ortho_newton5",
+      "mode": "reciprocal_scaling_and_newton_det_cert",
+      "mean_ms": 0.373,
+      "summary": {
+        "mode": "reciprocal_scaling_and_newton_det_cert",
+        "N_dim": 6,
+        "dim_C": 3,
+        "newton_k": 5,
+        "k_fact_det": -4680,
+        "certificate_id": "m2_recip_n6_ortho_newton5",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_lcp_2d_sym_pd",
+      "mode": "monotone_lcp_and_qp_kkt_cert",
+      "mean_ms": 0.08,
+      "summary": {
+        "mode": "monotone_lcp_and_qp_kkt_cert",
+        "d_dim": 2,
+        "probe_gap": "6/1",
+        "quad_term": "8/3",
+        "certificate_id": "m3_lcp_2d_sym_pd",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_lcp_3d_asym_monotone",
+      "mode": "monotone_lcp_and_qp_kkt_cert",
+      "mean_ms": 0.117,
+      "summary": {
+        "mode": "monotone_lcp_and_qp_kkt_cert",
+        "d_dim": 3,
+        "probe_gap": "14/1",
+        "quad_term": "7/1",
+        "certificate_id": "m3_lcp_3d_asym_monotone",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_qp_kkt_4d_skew_block",
+      "mode": "monotone_lcp_and_qp_kkt_cert",
+      "mean_ms": 0.158,
+      "summary": {
+        "mode": "monotone_lcp_and_qp_kkt_cert",
+        "d_dim": 4,
+        "probe_gap": "4/1",
+        "quad_term": "1/1",
+        "certificate_id": "m3_qp_kkt_4d_skew_block",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_qp_kkt_5d_psd_degenerate",
+      "mode": "monotone_lcp_and_qp_kkt_cert",
+      "mean_ms": 0.222,
+      "summary": {
+        "mode": "monotone_lcp_and_qp_kkt_cert",
+        "d_dim": 5,
+        "probe_gap": "9/2",
+        "quad_term": "1/2",
+        "certificate_id": "m3_qp_kkt_5d_psd_degenerate",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_game_fig5_low_center",
+      "mode": "max_norm_contraction_and_game_cert",
+      "mean_ms": 0.185,
+      "summary": {
+        "mode": "max_norm_contraction_and_game_cert",
+        "n_states": 2,
+        "err_y": "3/2",
+        "new_err": "1/2",
+        "low_guarantee": true,
+        "certificate_id": "m4_game_fig5_low_center",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_game_fig5_neutral_center",
+      "mode": "max_norm_contraction_and_game_cert",
+      "mean_ms": 0.168,
+      "summary": {
+        "mode": "max_norm_contraction_and_game_cert",
+        "n_states": 2,
+        "err_y": "3/2",
+        "new_err": "1/2",
+        "low_guarantee": false,
+        "certificate_id": "m4_game_fig5_neutral_center",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_game_3state_stochastic",
+      "mode": "max_norm_contraction_and_game_cert",
+      "mean_ms": 0.316,
+      "summary": {
+        "mode": "max_norm_contraction_and_game_cert",
+        "n_states": 3,
+        "err_y": "1/1",
+        "new_err": "1/2",
+        "low_guarantee": true,
+        "certificate_id": "m4_game_3state_stochastic",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_game_4state_gamma_quarter",
+      "mode": "max_norm_contraction_and_game_cert",
+      "mean_ms": 0.485,
+      "summary": {
+        "mode": "max_norm_contraction_and_game_cert",
+        "n_states": 4,
+        "err_y": "1/1",
+        "new_err": "0/1",
+        "low_guarantee": true,
+        "certificate_id": "m4_game_4state_gamma_quarter",
+        "protocol": "SPLP-SMALE9-CERT-1.0"
+      }
+    }
+  ]
+}

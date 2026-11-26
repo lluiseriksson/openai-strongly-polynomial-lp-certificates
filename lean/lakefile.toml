@@ -1,0 +1,7 @@
+name = "OpenAIStronglyPolyLP"
+version = "1.0.0"
+defaultTargets = ["OpenAIStronglyPolyLP"]
+
+[[lean_lib]]
+name = "OpenAIStronglyPolyLP"
+moreLeanArgs = ["-j", "1"]

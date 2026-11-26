@@ -1,0 +1,22 @@
+{
+  "title": "Constructive Lean 4 Kernel and Exact Zero-Float Certificates for OpenAI's Strongly Polynomial Linear Programming",
+  "authors": ["Lluis Eriksson"],
+  "abstract": "A November 24, 2026 companion preprint from OpenAI proposes a deterministic strongly polynomial-time algorithm for general linear programming (Smale's 9th problem), extending to monotone linear complementarity problems, convex quadratic programming, max-norm contraction fixed points, and turn-based discounted and priority mean-payoff games. Rather than assuming peer-reviewed endorsement of its online logarithmic compression, recursive extremal-price search, or dissociated-minor counting pillars, we deliver an independent, explicitly scoped, zero-floating-point verification companion for its discrete LP trichotomy certificates (strict complementarity, improving rays, minimal-support Farkas), paired-subspace reciprocal diagonal scaling and division-free Newton's identities determinant, monotone LCP and convex QP KKT gap decomposition, and Bellman / clipped-update max-norm contraction mechanisms. Layer 1 (OpenAIStronglyPolyLP.lean) proves 18 standalone constructive Lean 4.35.0 algebraic and duality sub-lemmas (zero sorry, zero axiom, zero Classical.choice, zero warnings; 1 [propext] and 17 [propext, Quot.sound]). Layer 2 (SPLP-SMALE9-CERT-1.0) is a pure-stdlib Python int/Fraction 4-mode auditor certifying 16 canonical finite witnesses in 0.049-0.485 ms and rejecting 73/73 live adversarial forgeries with exact branch assertions (80/80 pytest checks).",
+  "primary_subject": "Mathematics",
+  "secondary_subjects": ["Computer and information sciences"],
+  "keywords": [
+    "Smale's ninth problem",
+    "strongly polynomial linear programming",
+    "strict complementarity",
+    "reciprocal diagonal scaling",
+    "division-free Newton determinant",
+    "monotone linear complementarity",
+    "max-norm contraction",
+    "Lean 4 formal verification"
+  ],
+  "license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "repo_url": "https://github.com/lluiseriksson/openai-strongly-polynomial-lp-certificates",
+  "release_tag": "v1.0.0",
+  "pdf_relpath": "paper/main.pdf"
+}

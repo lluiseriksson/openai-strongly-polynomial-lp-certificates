@@ -1,0 +1,36 @@
+{
+  "rows": [
+    {
+      "cert_id": "m3_lcp_2d_sym_pd",
+      "d": 2,
+      "cross_float": 3.3333333333333335,
+      "quad_float": 2.6666666666666665,
+      "total_gap_str": "6/1",
+      "quad_str": "8/3"
+    },
+    {
+      "cert_id": "m3_lcp_3d_asym_monotone",
+      "d": 3,
+      "cross_float": 7.0,
+      "quad_float": 7.0,
+      "total_gap_str": "14/1",
+      "quad_str": "7/1"
+    },
+    {
+      "cert_id": "m3_qp_kkt_4d_skew_block",
+      "d": 4,
+      "cross_float": 3.0,
+      "quad_float": 1.0,
+      "total_gap_str": "4/1",
+      "quad_str": "1/1"
+    },
+    {
+      "cert_id": "m3_qp_kkt_5d_psd_degenerate",
+      "d": 5,
+      "cross_float": 4.0,
+      "quad_float": 0.5,
+      "total_gap_str": "9/2",
+      "quad_str": "1/2"
+    }
+  ]
+}
